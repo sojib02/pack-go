@@ -7,7 +7,7 @@
       arrows:false,
       focusOnSelect: true,
       autoplay:true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 2000,
       responsive: [
         {
           breakpoint: 1200,
@@ -52,6 +52,15 @@
     //slider2
     $('.slider2').slick({
       slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows:false,
+      dots: true
+    });
+
+    $('.testimonial_slide').slick({
+      slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,

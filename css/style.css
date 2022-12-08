@@ -880,7 +880,87 @@ slider2 part css start
 slider2 part css end
 banner part css start
 ======================== */
+#testimonial{
+    background: var(--white-color);
+}
+#testimonial .tesi_image{
+    position: relative;
+}
+#testimonial .tesi_image .te_img1{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 430px;
+}
+#testimonial .tesi_image .te_img2{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-top: 379px;
+}
+#testimonial .tesi_image .te_img3{
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    margin-top: 355px;
+    margin-left: 305px;
+}
+#testimonial .tesi_image .te_img4{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    margin-top: 568px;
+    margin-left: 210px;
+}
+#testimonial .tesi_image .te_img5{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-top: 504px;
+    margin-left: 489px;
+}
 
+#testimonial .testi{
+    margin-top: 264px;
+    margin-bottom: 238px;
+}
+#testimonial .testi h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+    margin-bottom: 40px;
+}
+#testimonial .testi svg{
+    margin-bottom: 25px;
+    width: 46px;
+     height: 34px;
+    fill: var(--primary-color);
+}
+#testimonial .testi p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+    padding-right: 102px;
+    margin-bottom: 25px;
+}
+#testimonial .testi .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+    margin-top: 0;
+}
 /* ========================
 we have part css end
 subscribe part css start
